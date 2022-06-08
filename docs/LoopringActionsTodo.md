@@ -13,8 +13,8 @@
 - [X] getExchangeInfo
 - [X] getMixDepth - REMOVED - Use getMarketDepth
 - [X] getMarketDepth - Renamed from getDepth.
-- [ ] getMixTicker
-- [ ] getTicker
+- [X] getMixTicker - REMOVED - Use getMarketTicker
+- [X] getMarketTicker - Renamed from getTicker
 - [ ] getAllMixTickers
 - [ ] getAllTickers
 - [ ] getMixCandlestick

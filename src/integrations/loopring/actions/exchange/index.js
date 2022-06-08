@@ -2,6 +2,7 @@ import GetExchangeInfo from './GetExchangeInfo';
 import GetFeeInfo from './GetFeeInfo';
 import GetMarketDepth from './GetMarketDepth';
 import GetMarkets from './GetMarkets';
+import GetMarketTicker from './GetMarketTicker';
 import GetMixMarkets from './GetMixMarkets';
 import GetProtocolPortrait from './GetProtocolPortrait';
 import GetRecommendedMarkets from './GetRecommendedMarkets';
@@ -14,6 +15,7 @@ const Actions = [
   GetFeeInfo,
   GetMarketDepth,
   GetMarkets,
+  GetMarketTicker,
   GetMixMarkets,
   GetProtocolPortrait,
   GetRecommendedMarkets,

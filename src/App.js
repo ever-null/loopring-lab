@@ -61,6 +61,9 @@ const App = () => {
     // const mixDepth = await client.exchange.getMarketDepth('AMM-LRC-ETH');
     // console.log(mixDepth);
 
+    // const marketTicker = await client.exchange.getMarketTicker(['LRC-ETH', 'amm-lrc-usdc', 'lrc-usdt', 'amm-lrc-eth']);
+    // console.log(marketTicker);
+
   };
 
   return (

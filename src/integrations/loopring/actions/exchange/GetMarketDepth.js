@@ -1,6 +1,7 @@
 import LoopringAction from '../LoopringAction';
 import LoopringEndpoints from '../settings/LoopringEndpoints';
 import BigNumber from 'bignumber.js';
+import IsMixMarket from './support/IsMixMarket';
 
 /**
  * @typedef MarketDepthInfo
@@ -28,10 +29,8 @@ import BigNumber from 'bignumber.js';
  */
 const GetMarketDepth = async (market, level = 0, limit = 50) => {
 
-  const isAmmMarket = market.match(/amm-/i);
-
   const response = await LoopringAction({
-    endpoint: isAmmMarket ?
+    endpoint: IsMixMarket(market) ?
       LoopringEndpoints.Exchange.MixMarketDepth :
       LoopringEndpoints.Exchange.MarketDepth,
     queryParams: {
