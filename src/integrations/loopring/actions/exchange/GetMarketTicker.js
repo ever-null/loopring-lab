@@ -33,31 +33,31 @@ const GetMarketTicker = async (markets) => {
 
   const promises = [];
 
-  if (marketList.length) {
-    promises.push(
+  promises.push(
+    marketList.length ?
       LoopringAction({
         endpoint: LoopringEndpoints.Exchange.MarketTicker,
         queryParams: {
           market: marketList.join(',')
         }
-      })
-    );
-  }
+      }) :
+      null
+  );
 
-  if (mixMarketList.length) {
-    promises.push(
+  promises.push(
+    mixMarketList.length ?
       LoopringAction({
         endpoint: LoopringEndpoints.Exchange.MixMarketTicker,
         queryParams: {
           market: mixMarketList.join(',')
         }
-      })
-    );
-  }
+      }) :
+      null
+  );
 
   const [marketResponse, mixMarketResponse] = await Promise.all(promises);
-  const marketTickers = marketResponse.data.tickers;
-  const mixMarketTickers = mixMarketResponse.data.tickers;
+  const marketTickers = marketResponse?.data?.tickers || [];
+  const mixMarketTickers = mixMarketResponse?.data?.tickers || [];
 
   return marketTickers.map(MapMarketTickerInfo)
     .concat(
