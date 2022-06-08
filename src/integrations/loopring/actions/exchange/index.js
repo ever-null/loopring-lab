@@ -1,3 +1,5 @@
+import GetAllMarketTickers from './GetAllMarketTickers';
+import GetAllMixMarketTickers from './GetAllMixMarketTickers';
 import GetExchangeInfo from './GetExchangeInfo';
 import GetFeeInfo from './GetFeeInfo';
 import GetMarketDepth from './GetMarketDepth';
@@ -11,6 +13,8 @@ import GetTokens from './GetTokens';
 import GetWithdrawalAgents from './GetWithdrawalAgents';
 
 const Actions = [
+  GetAllMarketTickers,
+  GetAllMixMarketTickers,
   GetExchangeInfo,
   GetFeeInfo,
   GetMarketDepth,

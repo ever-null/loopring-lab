@@ -15,8 +15,8 @@
 - [X] getMarketDepth - Renamed from getDepth.
 - [X] getMixTicker - REMOVED - Use getMarketTicker
 - [X] getMarketTicker - Renamed from getTicker
-- [ ] getAllMixTickers
-- [ ] getAllTickers
+- [X] getAllMixMarketTickers - Renamed from getAllMixTickers
+- [X] getAllMarketTickers - Renamed from getAllMarketTickers
 - [ ] getMixCandlestick
 - [ ] getCandlestick
 - [ ] getFiatPrice

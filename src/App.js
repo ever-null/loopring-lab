@@ -34,7 +34,7 @@ const App = () => {
     // const recMarkets = await client.exchange.getRecommendedMarkets();
     // console.log(recMarkets);
 
-    // const markets = await client.exchange.getMarkets(true);
+    // const markets = await client.exchange.getMarkets();
     // console.log(markets);
 
     // const markets = await client.exchange.getMixMarkets();
@@ -63,6 +63,12 @@ const App = () => {
 
     // const marketTicker = await client.exchange.getMarketTicker(['LRC-ETH', 'amm-lrc-usdc', 'lrc-usdt', 'amm-lrc-eth']);
     // console.log(marketTicker);
+
+    // const marketTickers = await client.exchange.getAllMarketTickers();
+    // console.log(marketTickers);
+    //
+    // const mixMarketTickers = await client.exchange.getAllMixMarketTickers();
+    // console.log(mixMarketTickers);
 
   };
 
