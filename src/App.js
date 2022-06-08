@@ -55,8 +55,11 @@ const App = () => {
     // const exchangeInfo = await client.exchange.getExchangeInfo();
     // console.log(exchangeInfo);
 
-    const marketDepth = await client.exchange.getMarketDepth('LRC-ETH', 1);
-    console.log(marketDepth);
+    // const marketDepth = await client.exchange.getMarketDepth('LRC-ETH', 1);
+    // console.log(marketDepth);
+
+    // const mixDepth = await client.exchange.getMarketDepth('AMM-LRC-ETH');
+    // console.log(mixDepth);
 
   };
 

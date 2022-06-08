@@ -6,6 +6,7 @@ const LoopringEndpoints = {
     MarketDepth: '/api/v3/depth',
     Markets: '/api/v3/exchange/markets',
     MixMarkets: '/api/v3/mix/markets',
+    MixMarketDepth: '/api/v3/mix/depth',
     ProtocolPortrait: '/api/v3/sidecar/ProtocolPortrait',
     RecommendedMarkets: '/api/v3/exchange/recommended',
     Timestamp: '/api/v3/timestamp',

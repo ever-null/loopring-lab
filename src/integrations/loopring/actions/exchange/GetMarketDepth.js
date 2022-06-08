@@ -19,10 +19,21 @@ import BigNumber from 'bignumber.js';
  * @property {number} orderCount
  */
 
+/**
+ * Retrieves market depth from the order book for the specified market.
+ * @param {string} market - The market to query.
+ * @param {number} [level] - The level of the market.
+ * @param {number} [limit] - The number of bids/asks to retrieve.
+ * @return {Promise<MarketDepthInfo>}
+ */
 const GetMarketDepth = async (market, level = 0, limit = 50) => {
 
+  const isAmmMarket = market.match(/amm-/i);
+
   const response = await LoopringAction({
-    endpoint: LoopringEndpoints.Exchange.MarketDepth,
+    endpoint: isAmmMarket ?
+      LoopringEndpoints.Exchange.MixMarketDepth :
+      LoopringEndpoints.Exchange.MarketDepth,
     queryParams: {
       market,
       level,

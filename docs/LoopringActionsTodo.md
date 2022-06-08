@@ -2,7 +2,7 @@
 
 ## Exchange
 
-- [x] getRelayerCurrentTime
+- [X] getRelayerCurrentTime
 - [X] getProtocolPortrait
 - [X] getExchangeFeeInfo
 - [ ] getWithdrawalAgents - ??? - Need params to return viable result - ??? -
@@ -11,8 +11,8 @@
 - [X] getMixMarkets
 - [X] getTokens
 - [X] getExchangeInfo
-- [ ] getMixDepth
-- [ ] getMarketDepth - Renamed from getDepth.
+- [X] getMixDepth - REMOVED - Use getMarketDepth
+- [X] getMarketDepth - Renamed from getDepth.
 - [ ] getMixTicker
 - [ ] getTicker
 - [ ] getAllMixTickers
