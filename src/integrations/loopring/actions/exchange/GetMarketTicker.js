@@ -59,7 +59,7 @@ const GetMarketTicker = async (markets) => {
   const marketTickers = marketResponse?.data?.tickers || [];
   const mixMarketTickers = mixMarketResponse?.data?.tickers || [];
 
-  return marketTickers.map(MapMarketTickerInfo)
+  return marketTickers.map((tickerInfo) => MapMarketTickerInfo(tickerInfo))
     .concat(
       mixMarketTickers.map(([alias, ...otherInfo], index) =>
         // Use the original market specified, capture the name
