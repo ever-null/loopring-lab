@@ -82,6 +82,9 @@ const App = () => {
     // const trades = await client.exchange.getMarketTrades('LRC-ETH');
     // console.log(trades);
 
+    // const nonce = await client.account.getEthNonce('0x1F28F10176F89F4E9985873B84d14e75751BB3D1');
+    // console.log(nonce);
+
   };
 
   return (

@@ -22,7 +22,6 @@
 - [X] getFiatPrices - Renamed from getFiatPrice - NOTE: Prices appear out of sync with DEX UI?
 - [X] getWithdrawalDisabledTokens - Renamed from disableWithdrawTokenList
 - [X] getMarketTrades - Return types for numeric values may need revisiting.
-- [ ] getEthNonce
 - [ ] getGasPrice
 - [ ] getGasPriceRange
 - [ ] getAccountServices
@@ -32,6 +31,7 @@
 
 - [X] getAccount - Moved from exchange.
 - [X] getEthBalances - Moved from exchange.
+- [X] getEthNonce - Moved from exchange.
 - [X] getTokenBalances - Moved from exchange.
 - [X] getTokenAllowances - Moved from exchange; renamed from getAllowances.
 - [ ] getUserApiKey

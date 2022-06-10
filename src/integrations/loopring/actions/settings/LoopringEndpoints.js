@@ -23,6 +23,7 @@ const LoopringEndpoints = {
   Account: {
     AccountInfo: '/api/v3/account',
     EthAmount: '/api/v3/eth/balances',
+    EthNonce: '/api/v3/eth/nonce',
     TokenAllowance: '/api/v3/eth/allowances',
     TokenAmount: '/api/v3/eth/tokenBalances'
   }
