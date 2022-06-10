@@ -76,6 +76,9 @@ const App = () => {
     // const fiatPrices = await client.exchange.getFiatPrices('USD');
     // console.log(fiatPrices);
 
+    // const tokens = await client.exchange.getWithdrawalDisabledTokens();
+    // console.log(tokens);
+
   };
 
   return (

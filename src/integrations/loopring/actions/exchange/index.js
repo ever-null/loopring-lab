@@ -13,6 +13,7 @@ import GetRecommendedMarkets from './GetRecommendedMarkets';
 import GetRelayerCurrentTime from './GetRelayerCurrentTime';
 import GetTokens from './GetTokens';
 import GetWithdrawalAgents from './GetWithdrawalAgents';
+import GetWithdrawalDisabledTokens from './GetWithdrawalDisabledTokens';
 
 const Actions = [
   GetAllMarketTickers,
@@ -29,7 +30,8 @@ const Actions = [
   GetRecommendedMarkets,
   GetRelayerCurrentTime,
   GetTokens,
-  GetWithdrawalAgents
+  GetWithdrawalAgents,
+  GetWithdrawalDisabledTokens
 ];
 
 export default Actions;

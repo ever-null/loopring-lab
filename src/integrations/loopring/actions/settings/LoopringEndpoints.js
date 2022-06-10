@@ -16,7 +16,8 @@ const LoopringEndpoints = {
     RecommendedMarkets: '/api/v3/exchange/recommended',
     Timestamp: '/api/v3/timestamp',
     Tokens: '/api/v3/exchange/tokens',
-    WithdrawalAgents: '/api/v3/exchange/withdrawalAgents'
+    WithdrawalAgents: '/api/v3/exchange/withdrawalAgents',
+    WithdrawalDisabledTokens: '/api/v3/exchange/notWithdrawContractTokens'
   },
   Account: {
     AccountInfo: '/api/v3/account',

@@ -20,7 +20,7 @@
 - [X] getMixCandlestick - REMOVED - Use getMarketCandlestick
 - [X] getMarketCandlestick - Renamed from GetCandlestick
 - [X] getFiatPrices - Renamed from getFiatPrice - NOTE: Prices appear out of sync with DEX UI?
-- [ ] disableWithdrawTokenList
+- [X] getWithdrawalDisabledTokens - Renamed from disableWithdrawTokenList
 - [ ] getMarketTrades
 - [ ] getEthNonce
 - [ ] getGasPrice
