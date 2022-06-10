@@ -88,6 +88,9 @@ const App = () => {
     // const price = await client.exchange.getRecommendedGasPrice();
     // console.log(price);
 
+    // const price = await client.exchange.getRecommendedGasPriceRange();
+    // console.log(price);
+
   };
 
   return (

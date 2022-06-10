@@ -23,7 +23,7 @@
 - [X] getWithdrawalDisabledTokens - Renamed from disableWithdrawTokenList
 - [X] getMarketTrades - Return types for numeric values may need revisiting.
 - [X] getRecommendGasPrice - Renamed from getGasPrice
-- [ ] getGasPriceRange
+- [X] getRecommendGasPriceRange - Renamed from getGasPriceRange. NOTE: Simple array return type may need attention.
 - [ ] getAccountServices
 
 

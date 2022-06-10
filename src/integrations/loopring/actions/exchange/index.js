@@ -11,6 +11,7 @@ import GetMarketTrades from './GetMarketTrades';
 import GetMixMarkets from './GetMixMarkets';
 import GetProtocolPortrait from './GetProtocolPortrait';
 import GetRecommendedGasPrice from './GetRecommendedGasPrice';
+import GetRecommendedGasPriceRange from './GetRecommendedGasPriceRange';
 import GetRecommendedMarkets from './GetRecommendedMarkets';
 import GetRelayerCurrentTime from './GetRelayerCurrentTime';
 import GetTokens from './GetTokens';
@@ -31,6 +32,7 @@ const Actions = [
   GetMixMarkets,
   GetProtocolPortrait,
   GetRecommendedGasPrice,
+  GetRecommendedGasPriceRange,
   GetRecommendedMarkets,
   GetRelayerCurrentTime,
   GetTokens,
