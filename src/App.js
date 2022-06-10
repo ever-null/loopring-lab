@@ -79,6 +79,9 @@ const App = () => {
     // const tokens = await client.exchange.getWithdrawalDisabledTokens();
     // console.log(tokens);
 
+    // const trades = await client.exchange.getMarketTrades('LRC-ETH');
+    // console.log(trades);
+
   };
 
   return (

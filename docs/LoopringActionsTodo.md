@@ -21,7 +21,7 @@
 - [X] getMarketCandlestick - Renamed from GetCandlestick
 - [X] getFiatPrices - Renamed from getFiatPrice - NOTE: Prices appear out of sync with DEX UI?
 - [X] getWithdrawalDisabledTokens - Renamed from disableWithdrawTokenList
-- [ ] getMarketTrades
+- [X] getMarketTrades - Return types for numeric values may need revisiting.
 - [ ] getEthNonce
 - [ ] getGasPrice
 - [ ] getGasPriceRange

@@ -7,6 +7,7 @@ import GetMarketCandlestick from './GetMarketCandlestick';
 import GetMarketDepth from './GetMarketDepth';
 import GetMarkets from './GetMarkets';
 import GetMarketTicker from './GetMarketTicker';
+import GetMarketTrades from './GetMarketTrades';
 import GetMixMarkets from './GetMixMarkets';
 import GetProtocolPortrait from './GetProtocolPortrait';
 import GetRecommendedMarkets from './GetRecommendedMarkets';
@@ -25,6 +26,7 @@ const Actions = [
   GetMarketDepth,
   GetMarkets,
   GetMarketTicker,
+  GetMarketTrades,
   GetMixMarkets,
   GetProtocolPortrait,
   GetRecommendedMarkets,

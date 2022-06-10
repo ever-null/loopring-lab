@@ -8,6 +8,7 @@ const LoopringEndpoints = {
     MarketDepth: '/api/v3/depth',
     Markets: '/api/v3/exchange/markets',
     MarketTicker: '/api/v3/ticker',
+    MarketTrades: '/api/v3/trade',
     MixMarketCandlestick: '/api/v3/mix/candlestick',
     MixMarkets: '/api/v3/mix/markets',
     MixMarketDepth: '/api/v3/mix/depth',
