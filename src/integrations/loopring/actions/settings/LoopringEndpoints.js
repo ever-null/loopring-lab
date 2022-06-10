@@ -15,6 +15,7 @@ const LoopringEndpoints = {
     MixMarketTicker: '/api/v3/mix/ticker',
     ProtocolPortrait: '/api/v3/sidecar/ProtocolPortrait',
     RecommendedMarkets: '/api/v3/exchange/recommended',
+    RecommendedGasPrice: '/api/v3/eth/recommendedGasPrice',
     Timestamp: '/api/v3/timestamp',
     Tokens: '/api/v3/exchange/tokens',
     WithdrawalAgents: '/api/v3/exchange/withdrawalAgents',

@@ -22,7 +22,7 @@
 - [X] getFiatPrices - Renamed from getFiatPrice - NOTE: Prices appear out of sync with DEX UI?
 - [X] getWithdrawalDisabledTokens - Renamed from disableWithdrawTokenList
 - [X] getMarketTrades - Return types for numeric values may need revisiting.
-- [ ] getGasPrice
+- [X] getRecommendGasPrice - Renamed from getGasPrice
 - [ ] getGasPriceRange
 - [ ] getAccountServices
 
