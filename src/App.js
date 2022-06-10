@@ -73,6 +73,9 @@ const App = () => {
     // const candlestick = await client.exchange.getMarketCandlestick('LRC-ETH', TradingIntervals.Days1);
     // console.log(candlestick);
 
+    // const fiatPrices = await client.exchange.getFiatPrices('USD');
+    // console.log(fiatPrices);
+
   };
 
   return (
