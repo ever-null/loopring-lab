@@ -24,12 +24,12 @@
 - [X] getMarketTrades - Return types for numeric values may need revisiting.
 - [X] getRecommendGasPrice - Renamed from getGasPrice
 - [X] getRecommendGasPriceRange - Renamed from getGasPriceRange. NOTE: Simple array return type may need attention.
-- [ ] getAccountServices
 
 
 ## Account
 
 - [X] getAccount - Moved from exchange.
+- [X] getAccountServices - Moved from exchange. - ??? - Needs additional understanding of purpose - :: -
 - [X] getEthBalances - Moved from exchange.
 - [X] getEthNonce - Moved from exchange.
 - [X] getTokenBalances - Moved from exchange.

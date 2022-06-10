@@ -91,6 +91,9 @@ const App = () => {
     // const price = await client.exchange.getRecommendedGasPriceRange();
     // console.log(price);
 
+    // const services = await client.account.getAccountServices();
+    // console.log(services);
+
   };
 
   return (
