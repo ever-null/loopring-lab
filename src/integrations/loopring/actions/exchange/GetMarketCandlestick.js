@@ -24,6 +24,9 @@ import IsMixMarket from './support/IsMixMarket';
  * @param {number} [end] - An ending timestamp to limit to.
  * @param {number} [limit] - The number of results to limit to.
  * @return {Promise<MarketCandlestickInfo[]>}
+ * WARNING: This function does not process the timestamp like the official
+ * SDK does.  If this affects data negatively this function will need
+ * to be updated.
  */
 const GetMarketCandlestick = async (market, tradingInterval, start, end, limit) => {
 
