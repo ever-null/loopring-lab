@@ -17,8 +17,8 @@
 - [X] getMarketTicker - Renamed from getTicker
 - [X] getAllMixMarketTickers - Renamed from getAllMixTickers
 - [X] getAllMarketTickers - Renamed from getAllMarketTickers
-- [ ] getMixCandlestick
-- [ ] getCandlestick
+- [X] getMixCandlestick - REMOVED - Use getMarketCandlestick
+- [X] getMarketCandlestick - Renamed from GetCandlestick
 - [ ] getFiatPrice
 - [ ] disableWithdrawTokenList
 - [ ] getMarketTrades

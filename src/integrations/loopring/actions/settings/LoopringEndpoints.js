@@ -3,9 +3,11 @@ const LoopringEndpoints = {
   Exchange: {
     ExchangeInfo: '/api/v3/exchange/info',
     FeeInfo: '/api/v3/exchange/feeInfo',
+    MarketCandlestick: '/api/v3/candlestick',
     MarketDepth: '/api/v3/depth',
     Markets: '/api/v3/exchange/markets',
     MarketTicker: '/api/v3/ticker',
+    MixMarketCandlestick: '/api/v3/mix/candlestick',
     MixMarkets: '/api/v3/mix/markets',
     MixMarketDepth: '/api/v3/mix/depth',
     MixMarketTicker: '/api/v3/mix/ticker',

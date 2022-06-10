@@ -1,6 +1,6 @@
 import React from 'react';
 import useWalletConnector from './hooks/wallet/useWalletConnector';
-import LoopringClient from './integrations/loopring/LoopringClient';
+import { LoopringClient, TradingIntervals } from './integrations/loopring';
 
 const App = () => {
   const wallet = useWalletConnector();
@@ -69,6 +69,9 @@ const App = () => {
     //
     // const mixMarketTickers = await client.exchange.getAllMixMarketTickers();
     // console.log(mixMarketTickers);
+
+    // const candlestick = await client.exchange.getMarketCandlestick('LRC-ETH', TradingIntervals.Days1);
+    // console.log(candlestick);
 
   };
 
